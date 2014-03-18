@@ -1,6 +1,8 @@
 error-handling
 ==============
 
+[Slides](https://cloudup.com/iHRjZbVdiFz)
+
 ## Ways to think about errors
 
 - this whole server is borked
