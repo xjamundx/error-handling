@@ -88,14 +88,14 @@ app.get('/money/:currency', function(req, res) {
 /** Custom Errors **/
 /*******************/
 
-			app.get('/mountains/:id', function(req, res) {
-				db.get(req.params.id, function(err, user) {
-					if (err) {
-						return handleError(err, req, res);
-					}
-					res.json(user);
-				});
-			});
+app.get('/mountains/:id', function(req, res) {
+	db.get(req.params.id, function(err, user) {
+		if (err) {
+			return handleError(err, req, res);
+		}
+		res.json(user);
+	});
+});
 
 // custom mountain error
 function MountainError(message) {
